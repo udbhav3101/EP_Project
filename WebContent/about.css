@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: gray;
+  font-family: "Dancing Script", cursive;
+}
+.container {
+  background: #ffffff;
+  height: 90vh;
+  width: 95%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.img {
+  height: 100%;
+  width: 30%;
+  background: url("https://cdn.pixabay.com/photo/2015/02/02/11/09/office-620822_1280.jpg")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.text {
+  width: 60%;
+  padding: 10px 10px;
+  position: absolute;
+  top: 40%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 20px;
+}
+.btn {
+  position: absolute;
+  top: 85%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  border: none;
+  outline: none;
+  font-family: Century Gothic;
+  background: purple;
+  border-radius: 15px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: large;
+  color: #ffffff;
+  width: 15%;
+  transition: 0.3s ease;
+}
+.btn:hover {
+  background: #00a3e8;
+}

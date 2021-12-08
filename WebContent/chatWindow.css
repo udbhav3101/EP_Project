@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+body{
+    background-color: rgb(52, 219, 219) ;
+    align-self: center;
+}
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(67, 140, 223);
+}
+.nav *{
+  display: inline;
+}
+.nav li{
+  float: right;
+}
+.nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav li a:hover{
+  background-color: rgb(50, 23, 172);
+}
+.nav title{
+  float: left;
+  text-align: center;
+  font-size: 200px;
+}
+.box{
+    background-color:#4a81d3;
+    	padding: 15px;	
+    	border-radius: 25px;
+    	margin:4px;
+    	width:30%;
+}
+.un{
+    background-color:#4abed3;
+    padding: 15px;	
+    border-radius: 25px;
+    margin:4px;
+    width: 15%;
+}
+.msg{
+    background-color:#4abed3;
+    padding: 15px;	
+    border-radius: 25px;
+    margin:4px;
+    width: auto;
+}

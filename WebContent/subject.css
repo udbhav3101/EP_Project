@@ -1,0 +1,50 @@
+body
+{
+  background-color: rgb(127, 208, 255);
+}
+.card {
+  height: 100%;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  
+}  
+
+.row {margin: 0 -5px;}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 30px 30px;
+}
+.nav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(67, 140, 223);
+}
+.nav *{
+  display: inline;
+}
+.nav li{
+  float: right;
+}
+.nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav li a:hover{
+  background-color: rgb(50, 23, 172);
+}
+.nav title{
+  float: left;
+  text-align: center;
+  font-size: 200px;
+}
